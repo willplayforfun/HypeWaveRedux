@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193b67e37cc27524eba4afc2ed8cea52, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{746F1C85-77CD-4033-AD05-62B4C0671E45}'
+    m_lastTimePsrt1: 1259871891
+    m_lastTimePart2: -1999354418
+    List:
+    - Name: Play_All
+      Path: Default Work Unit\Play_All
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_All
+        ObjectType: 3
+      ID: -1318656393
+      Guid: 8c5147ef25eeb345940e97ba093a7936
+      maxAttenuation: 0
+    - Name: Play_Crowd_Hype_Atmos
+      Path: Default Work Unit\Play_Crowd_Hype_Atmos
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Crowd_Hype_Atmos
+        ObjectType: 3
+      ID: -1400273437
+      Guid: 58f4af98eb8c9746a973d6eb97f108c0
+      maxAttenuation: 0
+    - Name: Play_CrowdWaveTrigger
+      Path: Default Work Unit\Play_CrowdWaveTrigger
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_CrowdWaveTrigger
+        ObjectType: 3
+      ID: -604852914
+      Guid: 49e0d4c1540d9a4ca6a97c587aa54b32
+      maxAttenuation: 0
+    - Name: Play_Intro
+      Path: Default Work Unit\Music\Play_Intro
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Play_Intro
+        ObjectType: 3
+      ID: -1191494768
+      Guid: be013e390769ab49b8edb1a47dc11298
+      maxAttenuation: 0
+    - Name: Play_Intro_Stripped
+      Path: Default Work Unit\Music\Play_Intro_Stripped
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Play_Intro_Stripped
+        ObjectType: 3
+      ID: 411890270
+      Guid: 4d2a9a64a31ece43a356e17a1031cb43
+      maxAttenuation: 0
+    - Name: Play_Loop
+      Path: Default Work Unit\Music\Play_Loop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Play_Loop
+        ObjectType: 3
+      ID: -28727740
+      Guid: e7ad43fdcba90b40ac993088059cdfb2
+      maxAttenuation: 0
+    - Name: Play_Player_Impact
+      Path: Default Work Unit\Play_Player_Impact
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Player_Impact
+        ObjectType: 3
+      ID: -1240293882
+      Guid: c520f8bca0dbd74ea00e1de1836a69ac
+      maxAttenuation: 0
+    - Name: Play_ShortenedMetalScream
+      Path: Default Work Unit\Play_ShortenedMetalScream
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ShortenedMetalScream
+        ObjectType: 3
+      ID: 376268128
+      Guid: cd93b80ab7d779439aa1cf7518148a59
+      maxAttenuation: 0
+    - Name: Play_Wrong_Notes
+      Path: Default Work Unit\Play_Wrong_Notes
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Wrong_Notes
+        ObjectType: 3
+      ID: -1051390693
+      Guid: 6ad1c4e590e3ec47a932c343e7a34722
+      maxAttenuation: 0
+    - Name: Stop_Crowd_Hype_Atmos
+      Path: Default Work Unit\Stop_Crowd_Hype_Atmos
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Crowd_Hype_Atmos
+        ObjectType: 3
+      ID: 811677265
+      Guid: 091c774253d41c4cbfb1cf75e3530a7d
+      maxAttenuation: 0
+    - Name: Stop_Music
+      Path: Default Work Unit\Music\Stop_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Stop_Music
+        ObjectType: 3
+      ID: -1457583239
+      Guid: 6119d2b1bb2e8d4da179159455fe73d8
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{B9B3F47F-EAAA-47F4-B735-59104F426057}'
+    m_lastTimePsrt1: 1592158264
+    m_lastTimePart2: -1999355263
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{AEBCC0BB-4BC3-4BCC-862B-048CE1CFC4AA}'
+    m_lastTimePsrt1: -1100117613
+    m_lastTimePart2: -1999355308
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{ADA89B2A-59CF-4B42-BAEA-CA51AB916E6B}'
+    m_lastTimePsrt1: -1099657564
+    m_lastTimePart2: -1999355308
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{F5828CA5-11CE-4579-9D33-FF67B966B689}'
+    m_lastTimePsrt1: 1259971891
+    m_lastTimePart2: -1999354418
+    List:
+    - Name: MAIN
+      Path: Default Work Unit\MAIN
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MAIN
+        ObjectType: 7
+      ID: -1133058374
+      Guid: 7aeaf22a916c894f9a861b6313c2ff40
+    - Name: Music
+      Path: Default Work Unit\Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      ID: -303024426
+      Guid: d5409e1270ac04458665a874b9f4d5f0
+  ExpandedItems:
+  - /Metal
+  - /Metal/Events
+  - /Metal/Events/Default Work Unit
+  - /Metal/Events/Default Work Unit/Music
+  - /Metal/SoundBanks
+  - /Metal/SoundBanks/Default Work Unit
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95

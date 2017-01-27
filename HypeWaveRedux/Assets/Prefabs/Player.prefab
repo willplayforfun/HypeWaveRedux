@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1331915439311822}
+  m_IsPrefabParent: 1
+--- !u!1 &1331915439311822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4935795530200622}
+  - component: {fileID: 114470922313615426}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4935795530200622
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1331915439311822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114470922313615426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1331915439311822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3600bba2834855d4997b36745f830732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerVisualPrefabs:
+  - {fileID: 1206661655562166, guid: cf7ddbb6b58d5c047b1b6901c5d313e9, type: 2}
+  - {fileID: 1363808501618218, guid: f7e7197618a82244ba8a7acb114e678f, type: 2}
+  - {fileID: 1327490571534016, guid: 1ecf88d53ce65054aac7b22fdba26746, type: 2}
+  - {fileID: 1639124591824328, guid: 233b293521953cb4e9773934563fd734, type: 2}
+  kernelSize: 3
+  pitRadius: 1.5
+  pitDuration: 5
+  pitCooldownTime: 1
+  magnitudeToStartPit: 1
+  chaosToStartPit: 0.3
+  staunchitudeTime: 0.5
+  waveSize: 2
+  pushInfluence: 2
+  maxSpeed: 0.1
+  minSpeed: 0.02
+  maxSpeedSkills: 5
+  minSpeedSkills: 0
+  maxSkills: 10
+  minSkills: -5
+  hypeAmount: 0.1
+  respawnTime: 1
+  noteDisplayPrefab: {fileID: 114228686354586024, guid: 2e190e20db786804585caf04425ffaaa,
+    type: 2}
+  spotlightPrefab: {fileID: 114654872769459890, guid: dbd0d7909eb391d44869f6a8bab51d9a,
+    type: 2}
