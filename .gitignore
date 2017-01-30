@@ -28,3 +28,6 @@ HypeWaveRedux/sysinfo.txt
 # Builds
 HypeWaveRedux/*.apk
 HypeWaveRedux/*.unitypackage
+
+#WWise
+Metal/.cache
