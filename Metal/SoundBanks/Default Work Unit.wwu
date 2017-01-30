@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F5828CA5-11CE-4579-9D33-FF67B966B689}" SchemaVersion="75">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F5828CA5-11CE-4579-9D33-FF67B966B689}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MAIN" ID="{2AF2EA7A-6C91-4F89-9A86-1B6313C2FF40}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_ShortenedMetalScream" ID="{0AB893CD-D7B7-4379-9AA1-CF7518148A59}" WorkUnitID="{746F1C85-77CD-4033-AD05-62B4C0671E45}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Crowd_Hype_Atmos" ID="{98AFF458-8CEB-4697-A973-D6EB97F108C0}" WorkUnitID="{746F1C85-77CD-4033-AD05-62B4C0671E45}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Wrong_Notes" ID="{E5C4D16A-E390-47EC-A932-C343E7A34722}" WorkUnitID="{746F1C85-77CD-4033-AD05-62B4C0671E45}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Crowd_Hype_Atmos" ID="{42771C09-D453-4C1C-BFB1-CF75E3530A7D}" WorkUnitID="{746F1C85-77CD-4033-AD05-62B4C0671E45}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CrowdWaveTrigger" ID="{C1D4E049-0D54-4C9A-A6A9-7C587AA54B32}" WorkUnitID="{746F1C85-77CD-4033-AD05-62B4C0671E45}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Player_Impact" ID="{BCF820C5-DBA0-4ED7-A00E-1DE1836A69AC}" WorkUnitID="{746F1C85-77CD-4033-AD05-62B4C0671E45}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{129E40D5-AC70-4504-8665-A874B9F4D5F0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Loop" ID="{FD43ADE7-A9CB-400B-AC99-3088059CDFB2}" WorkUnitID="{746F1C85-77CD-4033-AD05-62B4C0671E45}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Intro_Stripped" ID="{649A2A4D-1EA3-43CE-A356-E17A1031CB43}" WorkUnitID="{746F1C85-77CD-4033-AD05-62B4C0671E45}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Intro" ID="{393E01BE-6907-49AB-B8ED-B1A47DC11298}" WorkUnitID="{746F1C85-77CD-4033-AD05-62B4C0671E45}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music" ID="{B1D21961-2EBB-4D8D-A179-159455FE73D8}" WorkUnitID="{746F1C85-77CD-4033-AD05-62B4C0671E45}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
